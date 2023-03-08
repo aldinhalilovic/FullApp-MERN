@@ -11,7 +11,7 @@ import { fileURLToPath } from "url";
 import authRoutes from "./routes/auth";
 import userRoutes from "./routes/users";
 import { register } from "./controllers/auth";
-// import { verifyToken } from "./middleware/auth";
+import { verifyToken } from "./middleware/auth";
 
 // CONFIGURATIONS
 

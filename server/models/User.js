@@ -14,7 +14,7 @@ const UserSchema = new mongoose.Schema(
       min: 2,
       max: 50,
     },
-    lastName: {
+    email: {
       type: String,
       required: true,
       min: 2,
@@ -26,7 +26,7 @@ const UserSchema = new mongoose.Schema(
       required: true,
       min: 5,
     },
-    password: {
+    picturePath: {
       type: String,
       default: "",
     },
